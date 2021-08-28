@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.heading1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 3.5rem;
+    padding: 1.5%;
+}
+
+.heading2 {
+    text-shadow: -8px 7px 0 rgba(11, 89, 214, 0.1);
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: 2%;
+    border-left: 0.9rem solid #00d0f2;
+    height: 10%;
+    padding-left: 1%;
+    font-size: 4rem;
+    width: fit-content;
+    text-align: center;
+}
+
+#design2 .row {
+    justify-content: center;
+}
+
+#design1 .wrapper {
+    background-color: #f5fcfc;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+
+#design2 .wrapper {
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: #f5fcfc;
+}
+
+#design1 .wrapper .wrapper_card {
+    padding: 1rem;
+}
+
+#design2 .wrapper_card {
+    width: 60%;
+    margin-top: 8%;
+}
+
+#design2 .wrapper_card .inner_box {
+    border: 0.5rem solid #00d0f2;
+}
+
+#design1 .wrapper .wrapper_card figure img {
+    width: 19rem;
+    height: 26rem;
+    border-radius: 3%;
+    filter: grayscale(90%);
+}
+
+#design2 .wrapper_card .inner_box figure img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: -23%;
+}
+
+#design1 .wrapper .wrapper_card .desc {
+    padding-left: 1rem;
+    /* text-align: left; */
+}
+
+#design2 .wrapper_card .desc {
+    padding: 2%;
+}
+
+#design1 .wrapper .wrapper_card h4 {
+    color: #1e1e1e;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#design1 .wrapper .wrapper_card p {
+    font-size: 1.5rem;
+    color: #808080;
+}
+
+#design2 .wrapper_card .desc h4 {
+    font-weight: bold;
+    color: #08122d;
+}
+
+#design2 .wrapper_card .desc p {
+    font-size: 1.2rem;
+}
+
+#design3 {
+    background-color: #000000;
+}
+
+#design3 .heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 1.5%;
+    color: #ffffff;
+    margin-top: 0%;
+}
+
+#design3 .wrapper {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5rem;
+    color: whitesmoke;
+}
+
+#design3 .wrapper_card {
+    width: 60%;
+    margin-top: 8%;
+}
+
+#design3 .wrapper_card .inner_box figure {
+    text-align: center;
+}
+
+#design3 .wrapper_card .inner_box figure img {
+    width: 92%;
+    height: 95%;
+    /* border-radius: 50%; */
+    margin-top: -23%;
+    /* border: 0.1rem solid white; */
+}
+
+#design3 .wrapper_card .inner_box {
+    border: 0.1rem solid #ffd400;
+    color: #ffd400;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 0% 2%;
+}
+
+#design3 .wrapper_card .desc {
+    padding: 2% 4%;
+    text-align: center;
+}
+
+#design3 .wrapper_card .desc h4 {
+    font-family: "Montserrat";
+    color: #ffffff;
+}
+
+#design3 .wrapper_card .desc p {
+    font-size: 1.2rem;
+}
+
+#design4 {
+    background-color: #000000;
+}
+
+#design4 .heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 1.5%;
+    color: #ffffff;
+}
+
+#design4 .wrapper {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5rem;
+    color: whitesmoke;
+}
+
+#design4 .wrapper_card {
+    width: 60%;
+}
+
+#design4 .wrapper_card .inner_box figure {
+    text-align: center;
+}
+
+#design4 .wrapper_card .inner_box figure img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+#design4 .wrapper_card .inner_box {
+    color: #ffffff;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 3% 2%;
+    margin-top: 7%;
+}
+
+#design4 .wrapper_card .desc {
+    padding: 2% 4%;
+    text-align: center;
+}
+
+#design4 .wrapper_card .desc h4 {
+    font-family: "Montserrat";
+    color: #df2676;
+}
+
+#design4 .wrapper_card .desc p {
+    font-size: 1.5rem;
+    padding: 0% 2%;
+}
+
+@media screen and (min-width: 1020px) {
+    #design1 .wrapper .wrapper_card:nth-child(even) {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #design1 .row {
+        text-align: center;
+    }
+    #design1 .wrapper .wrapper_card .desc {
+        text-align: left;
+        margin-left: 20%;
+    }
+    #design2 .wrapper_card .inner_box figure img {
+        margin-top: -23%;
+    }
+    #design2 .wrapper_card .inner_box {
+        margin-top: 15%;
+    }
+    #design2 .wrapper_card {
+        width: 70%;
+        margin-top: 8%;
+    }
+    #design3 .wrapper_card {
+        width: 70%;
+        margin: 9% 0%;
+    }
+    #design3 .wrapper_card .inner_box figure img {
+        margin-top: -23%;
+    }
+    #design3 .wrapper_card .inner_box {
+        margin-top: 15%;
+    }
+    #design3 .wrapper_card .desc p {
+        font-size: 1.2rem;
+        padding: 0% 11%;
+    }
+    #design3 .col-sm-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    #design4 .wrapper_card {
+        width: 70%;
+        margin: 5% 0%;
+    }
+    #design4 .wrapper_card .inner_box {
+        margin-top: 0%;
+    }
+    #design4 .wrapper_card .desc p {
+        font-size: 1.2rem;
+        padding: 0% 11%;
+    }
+    #design4 .col-sm-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #design1 .wrapper .wrapper_card .desc {
+        margin-left: 25%;
+        width: 60%;
+        padding: 0% 2%;
+    }
+    #design1 .wrapper .wrapper_card .desc p {
+        font-size: 1.3rem;
+    }
+    #design4 .wrapper_card .desc {
+        padding: 2% 3%;
+    }
+    #design4 .wrapper_card .desc p {
+        font-size: 1rem;
+        padding: 0% 0%;
+    }
+    #design4 .wrapper_card .desc h4 {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* @media screen and (max-width:380px) {
+    /* .wrappers .wrapper_card .desc {
+        text-align: left;
+        margin-left: 7rem;
+    } */
+
+
+/* } */
+
+@media screen and (max-width: 380px) {
+    .wrappers .wrapper_card .desc {
+        margin-left: 20%;
+    }
+    #design2 .wrapper_card .inner_box figure img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        /* margin-top: -23%; */
+    }
+    #design3 .wrapper_card .desc {
+        padding: 2% 3%;
+    }
+    #design3 .wrapper_card .desc p {
+        font-size: 1rem;
+        padding: 0% 0%;
+    }
+}
