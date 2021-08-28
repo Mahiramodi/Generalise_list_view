@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+.wrapper_card .inner_box {
+    height: 100%;
+}
+
 .heading1 {
     text-align: center;
     font-weight: bold;
@@ -47,6 +51,10 @@
     padding: 1rem;
 }
 
+#design1 .wrapper .wrapper_card p {
+    padding-right: 5%;
+}
+
 #design2 .wrapper_card {
     width: 60%;
     margin-top: 8%;
@@ -54,6 +62,7 @@
 
 #design2 .wrapper_card .inner_box {
     border: 0.5rem solid #00d0f2;
+    /* height: 85%; */
 }
 
 #design1 .wrapper .wrapper_card figure img {
@@ -143,6 +152,7 @@
     justify-content: center;
     background-color: #1e1e1e;
     padding: 0% 2%;
+    height: 100%;
 }
 
 #design3 .wrapper_card .desc {
@@ -169,6 +179,7 @@
     font-size: 3.5rem;
     padding: 1.5%;
     color: #ffffff;
+    margin: 0%;
 }
 
 #design4 .wrapper {
@@ -181,6 +192,7 @@
 
 #design4 .wrapper_card {
     width: 60%;
+    padding: 0%;
 }
 
 #design4 .wrapper_card .inner_box figure {
@@ -194,11 +206,12 @@
 }
 
 #design4 .wrapper_card .inner_box {
+    height: 90%;
     color: #ffffff;
     justify-content: center;
     background-color: #1e1e1e;
     padding: 3% 2%;
-    margin-top: 7%;
+    margin: 5%;
 }
 
 #design4 .wrapper_card .desc {
@@ -222,23 +235,49 @@
     }
 }
 
+@media screen and (max-width: 1020px) {
+    #design1 .wrapper .wrapper_card p {
+        padding-right: 15%;
+    }
+    #design2 .wrapper_card {
+        margin-top: 14%;
+    }
+    #design3 .row {
+        margin-top: 5%;
+    }
+    #design3 .wrapper_card {
+        width: 70%;
+        margin: 8% 0%;
+    }
+}
+
 @media screen and (max-width: 780px) {
+    .wrapper_card .inner_box {
+        height: 100%;
+    }
     #design1 .row {
         text-align: center;
     }
     #design1 .wrapper .wrapper_card .desc {
         text-align: left;
-        margin-left: 20%;
+        margin-left: 31%;
     }
     #design2 .wrapper_card .inner_box figure img {
         margin-top: -23%;
     }
     #design2 .wrapper_card .inner_box {
         margin-top: 15%;
+        height: 85%;
     }
     #design2 .wrapper_card {
         width: 70%;
         margin-top: 8%;
+    }
+    #design2 .col-sm-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100%;
     }
     #design3 .wrapper_card {
         width: 70%;
@@ -252,7 +291,8 @@
     }
     #design3 .wrapper_card .desc p {
         font-size: 1.2rem;
-        padding: 0% 11%;
+        padding: 0% 6%;
+        margin-bottom: 0%;
     }
     #design3 .col-sm-12 {
         -webkit-box-flex: 0;
@@ -262,7 +302,7 @@
     }
     #design4 .wrapper_card {
         width: 70%;
-        margin: 5% 0%;
+        margin: 1% 0%;
     }
     #design4 .wrapper_card .inner_box {
         margin-top: 0%;
@@ -287,6 +327,7 @@
     }
     #design1 .wrapper .wrapper_card .desc p {
         font-size: 1.3rem;
+        padding-right: 5%;
     }
     #design4 .wrapper_card .desc {
         padding: 2% 3%;
