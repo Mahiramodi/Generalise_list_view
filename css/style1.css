@@ -30,6 +30,14 @@
     text-align: center;
 }
 
+.heading6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 1.5%;
+    color: #000000;
+}
+
 #design2 .row {
     justify-content: center;
 }
@@ -112,7 +120,7 @@
     background-color: #000000;
 }
 
-#design3 .heading1 {
+.heading3 {
     text-align: center;
     font-weight: bold;
     font-size: 3.5rem;
@@ -177,7 +185,11 @@
     background-color: #ecf5fc;
 }
 
-#design4 .heading1 {
+#design6 {
+    background-color: #ffffff;
+}
+
+.heading4 {
     text-align: center;
     font-weight: bold;
     font-size: 3.5rem;
@@ -186,7 +198,7 @@
     margin: 0%;
 }
 
-#design5 .heading1 {
+.heading5 {
     text-align: center;
     font-weight: bold;
     font-size: 3.5rem;
@@ -208,6 +220,12 @@
     padding-bottom: 5rem;
 }
 
+#design6 .wrapper {
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 5rem;
+}
+
 #design4 .wrapper_card {
     width: 60%;
     padding: 0%;
@@ -216,6 +234,15 @@
 #design5 .wrapper_card {
     width: 60%;
     margin-top: 8%;
+}
+
+#design6 .row {
+    justify-content: center;
+}
+
+#design6 .wrapper .wrapper_card {
+    padding: 1rem;
+    height: 100%;
 }
 
 #design4 .wrapper_card .inner_box figure {
@@ -251,6 +278,17 @@
     height: 100%;
 }
 
+#design6 .wrapper_card .inner_box {
+    vertical-align: center;
+    text-align: center;
+    padding: 60px 35px 30px;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #f1f1f1;
+    background-color: #fff;
+    height: 90%;
+}
+
 #design4 .wrapper_card .desc {
     padding: 2% 4%;
     text-align: center;
@@ -279,9 +317,20 @@
     font-size: 1.2rem;
 }
 
+#design6 .wrapper .wrapper_card desc {
+    height: 100%;
+}
+
+#design6 .wrapper .wrapper_card p {
+    text-align: center;
+}
+
 @media screen and (min-width: 1020px) {
     #design1 .wrapper .wrapper_card:nth-child(even) {
         margin-top: 5rem;
+    }
+    #design6 .wrapper .wrapper_card:nth-child(odd) {
+        margin-top: -5rem;
     }
 }
 
@@ -301,6 +350,9 @@
     }
     #design5 .wrapper_card {
         margin-top: 14%;
+    }
+    #design6 .wrapper .wrapper_card {
+        height: auto;
     }
 }
 
@@ -382,7 +434,17 @@
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 100%;
+        max-width: 50%;
+    }
+    #design6 .wrapper_card {
+        width: 70%;
+        display: grid;
+        place-items: center;
+    }
+    #design6 .wrapper_card .inner_box {
+        margin-top: 15%;
+        height: 85%;
+        width: 70%;
     }
 }
 
@@ -414,8 +476,19 @@
         font-size: 1rem;
         padding: 2% 1%;
     }
-    #design4 .wrapper_card .desc h4 {
-        font-size: 1.3rem;
+    #design6 .wrapper_card {
+        width: 70%;
+        margin-top: 3%;
+    }
+    #design6 .wrapper_card .inner_box {
+        margin-top: 0%;
+        height: 85%;
+        width: 80%;
+        text-align: center;
+        padding: 13% 10%;
+    }
+    #design6 .wrapper_card .desc h4 {
+        font-size: 1.1rem;
     }
 }
 
@@ -445,5 +518,12 @@
     #design3 .wrapper_card .desc p {
         font-size: 1rem;
         padding: 0% 0%;
+    }
+    #design6 .wrapper_card .inner_box {
+        margin-top: 0%;
+        height: 85%;
+        width: 100%;
+        text-align: center;
+        padding: 13% 10%;
     }
 }
