@@ -262,6 +262,10 @@
     margin-top: -23%;
 }
 
+#design6 .wrapper_card .inner_box figure img {
+    width: 100%;
+}
+
 #design4 .wrapper_card .inner_box {
     height: 90%;
     color: #ffffff;
@@ -321,16 +325,20 @@
     height: 100%;
 }
 
+#design6 .wrapper .wrapper_card h4 {
+    margin-bottom: 0%;
+}
+
 #design6 .wrapper .wrapper_card p {
-    text-align: center;
+    display: none;
 }
 
 @media screen and (min-width: 1020px) {
     #design1 .wrapper .wrapper_card:nth-child(even) {
         margin-top: 5rem;
     }
-    #design6 .wrapper .wrapper_card:nth-child(odd) {
-        margin-top: -5rem;
+    #design6 .wrapper .wrapper_card:nth-child(even) {
+        margin-top: 5rem;
     }
 }
 
@@ -353,6 +361,13 @@
     }
     #design6 .wrapper .wrapper_card {
         height: auto;
+    }
+    #design6 .wrapper_card .inner_box {
+        height: 100%;
+        padding: 5% 2%;
+    }
+    #design6 .wrapper_card .inner_box figure img {
+        width: 80%;
     }
 }
 
@@ -442,9 +457,18 @@
         place-items: center;
     }
     #design6 .wrapper_card .inner_box {
-        margin-top: 15%;
-        height: 85%;
-        width: 70%;
+        width: 80%;
+        padding: 7% 2%;
+    }
+    #design6 .wrapper_card .desc h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0%;
+    }
+    #design6 .col-sm-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 100%;
     }
 }
 
@@ -482,13 +506,10 @@
     }
     #design6 .wrapper_card .inner_box {
         margin-top: 0%;
-        height: 85%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
         text-align: center;
-        padding: 13% 10%;
-    }
-    #design6 .wrapper_card .desc h4 {
-        font-size: 1.1rem;
+        padding: 8% 2%;
     }
 }
 
@@ -518,12 +539,5 @@
     #design3 .wrapper_card .desc p {
         font-size: 1rem;
         padding: 0% 0%;
-    }
-    #design6 .wrapper_card .inner_box {
-        margin-top: 0%;
-        height: 85%;
-        width: 100%;
-        text-align: center;
-        padding: 13% 10%;
     }
 }
